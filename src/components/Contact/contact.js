@@ -28,7 +28,7 @@ const Contact = () => {
     <section id="contactPage">      
       <div id="contact">
         <h1 className="contactPageTitle">Contact Us!</h1>
-        <span className="contactDesc">Share your Knitt Mates journey with us!</span>
+        <span className="contactDesc">Share your KnittMates journey with us!</span>
         <form className='contactForm' ref={form} onSubmit={sendEmail}>
               <input type="text" className="name" placeholder='Your Name' name='your_name'/>
               <input type="email" className="email" placeholder='Your Email' name='your_email'/>
