@@ -1,93 +1,78 @@
 .navbar {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #e76f00; 
+  color: #ffffff;
+}
+
+.navbar__logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; 
+}
+
+.navbar__logo-img {
+  width: 50px; 
+  height: 50px;
+  border-radius: 50%; 
+}
+
+.navbar__logo h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.navbar__links {
+  display: flex;
+  gap: 1.5rem; 
+}
+
+.navbar__links li {
+  list-style: none;
+}
+
+.navbar__links li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+.navbar__links li a:hover {
+  color: #ffd700; 
+}
+
+.navbar__social {
+  display: flex;
+  gap: 1.5rem; 
+}
+
+.navbar__social a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.navbar__social a:hover {
+  color: #ffd700; }
+
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
     align-items: center;
-    padding: 1rem 2rem;
-    background-color: #e76f00; 
-    color: #ffffff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
   }
 
-  .navbar__logo {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem; 
-    background-color: #40916c; 
-  padding: 10px; 
-  border-radius: 10px; 
-  }
-  
-  .navbar__logo-img {
-    width: 45px;
-    height: 45px;
-    border-radius: 50%; 
-  }
-  
-  .navbar__logo h1 {
-    font-size: 1.8rem;
-    font-weight: bold;
-    color: #ffffff;
-  }
-  
-  /* Navigation Links */
   .navbar__links {
-    display: flex;
-    gap: 1.5rem;
-  }
-  
-  .navbar__links li {
-    list-style: none;
-  }
-  
-  .navbar__links li a {
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 1rem;
-    font-weight: 500;
-    transition: color 0.3s ease;
-  }
-  
-  .navbar__links li a:hover {
-    color: #40916c; 
-  
-  /* Social Media Links */
-  .navbar__social {
-    display: flex;
+    flex-direction: column;
     gap: 1rem;
+    margin-top: 1rem;
   }
-  
-  .navbar__social a {
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 1.2rem;
-    font-weight: bold;
-    transition: color 0.3s ease;
+
+  .navbar__social {
+    margin-top: 1rem;
   }
-  
-  .navbar__social a:hover {
-    color: #40916c; 
-  }
-  
-  /* Responsive Design */
-  @media (max-width: 768px) {
-    .navbar {
-      flex-direction: column; 
-      align-items: center;
-    }
-  
-    .navbar__links {
-      flex-direction: column; 
-      gap: 1rem;
-      margin-bottom: 1rem;
-    }
-  
-    .navbar__social {
-      justify-content: center;
-      gap: 0.5rem;
-    }
-  
-    .navbar__social a {
-      font-size: 1rem; 
-    }
-  }
-  
+}
