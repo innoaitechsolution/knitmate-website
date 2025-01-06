@@ -1,0 +1,114 @@
+.about {
+  font-family: Arial, sans-serif;
+}
+
+.about__header {
+  text-align: center;
+  padding: 3rem 1rem;
+  background-color: #2d6a4f; 
+  color: #ffffff;
+}
+
+.about__header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.about__header p {
+  font-size: 1.2rem;
+}
+
+.about__story {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 3rem 1rem;
+  background-color: #ffffff;
+  color: #1b4332;
+}
+
+.about__story .story__content {
+  max-width: 500px;
+}
+
+.about__story .story__content h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about__story .story__content p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.about__story .story__image img {
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* App Download Section */
+.about__app-download {
+  text-align: center;
+  padding: 3rem 1rem;
+  background-color: #e8f5e9; 
+  color: #1b4332;
+}
+
+.about__app-download h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about__app-download p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.app__buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.app__buttons button {
+  background-color: #ffffff;
+  border: 2px solid #1b4332;
+  color: #1b4332;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.app__buttons button:hover {
+  background-color: #1b4332;
+  color: #ffffff;
+}
+
+.google-play i,
+.app-store i {
+  margin-right: 0.5rem;
+}
+.google-play {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e76f00;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  text-decoration: none; 
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.google-play:hover {
+  background-color: #ff8c00; 
+}
