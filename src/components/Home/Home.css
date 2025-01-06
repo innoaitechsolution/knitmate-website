@@ -1,0 +1,103 @@
+.home__banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 2rem;
+  background-color: #40916c; 
+  color: white;
+  flex-wrap: wrap; 
+  gap: 2rem;
+}
+
+.banner__content {
+  max-width: 600px;
+  text-align: center; 
+}
+
+.banner__content h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.banner__content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #d9fbee;
+}
+
+/* Get the App Section */
+.home__getapp p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+}
+
+.getapp__buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn-appstore {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e76f00;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-appstore:hover {
+  background-color: #ff8c00;
+}
+
+.btn-appstore.disabled {
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+}
+
+/* Image Section */
+.banner__image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner__image img {
+  width: 500px; 
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.banner__image img:hover {
+  transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .home__banner {
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  .banner__content {
+    max-width: 100%;
+  }
+
+  .banner__image img {
+    width: 300px; 
+  }
+}
+
