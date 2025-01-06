@@ -1,21 +1,35 @@
-import Navbar from "./components/Navbar/navbar";
-import Intro from './components/Intro/intro';
-import Works from "./components/Works/works";
-import Contact from "./components/Contact/contact";
-import Footer from "./components/Footer/footer";
-import PrivacyPolicy from "./privacypolicy/PrivacyPolicy";
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
+import Home from './components/Home/Home';
+import About from './components/About/About';
+import Features from './components/Features/Features';
+import Blog from './components/Blog/Blog';
+import Contact from './components/Contact/Contact';
+import BlogDetail from './components/Blog/BlogDetail';
+import PrivacyPolicy from './components/privacypolicy/privacypolicy';
+import './App.css'; 
 
-function App() {
-    return (
-        <div className="App">
-            <Navbar />
-            <Intro />      
-            <Works />           
-            <Contact />
-            <Footer />
-            <PrivacyPolicy />           
-        </div>
-    );
-}
+const App = () => {
+  return (
+    <Router>
+      <Navbar />
+      <main>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/features" element={<Features />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/blog/:id" element={<BlogDetail />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/privacypolicy" element={<PrivacyPolicy />} /> 
+        </Routes>
+      </main>
+      <Footer />
+    </Router>
+  );
+};
 
 export default App;
+
