@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { FaTwitter, FaYoutube, FaTiktok } from 'react-icons/fa'; 
 import './Footer.css';
 
 const Footer = () => {
@@ -29,9 +30,15 @@ const Footer = () => {
         <div className="footer__social">
           <h3>Follow Us</h3>
           <div className="social__icons">
-            <a href="https://x.com/knittmates" target="_blank" rel="noopener noreferrer">Twitter(X)</a>
-            <a href="https://www.youtube.com/@KnittMates" target="_blank" rel="noopener noreferrer">YouTube</a>
-            <a href="https://www.tiktok.com/@knittmates?lang=en" target="_blank" rel="noopener noreferrer">TikTok</a>
+            <a href="https://x.com/knittmates" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+              <FaTwitter />
+            </a>
+            <a href="https://www.youtube.com/@KnittMates" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+              <FaYoutube />
+            </a>
+            <a href="https://www.tiktok.com/@knittmates?lang=en" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+              <FaTiktok />
+            </a>
           </div>
         </div>
       </div>
