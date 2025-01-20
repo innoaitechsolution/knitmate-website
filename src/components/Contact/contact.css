@@ -2,11 +2,12 @@
   font-family: Arial, sans-serif;
   line-height: 1.6;
   background-color: #f0fdf4; 
-  min-height: 100vh; 
+  min-height: 100vh;
   padding: 0;
   margin: 0;
 }
 
+/* Header Section */
 .contact__header {
   text-align: center;
   padding: 3rem 1rem;
@@ -23,6 +24,7 @@
   font-size: 1.2rem;
 }
 
+/* Contact Form Section */
 .contact__form {
   padding: 3rem 1rem;
   max-width: 600px;
@@ -79,6 +81,7 @@
   transform: scale(1.05);
 }
 
+/* Social Media Section */
 .contact__social {
   text-align: center;
   padding: 3rem 1rem;
@@ -100,15 +103,16 @@
 .contact__social .social__icons a {
   text-decoration: none;
   color: #ffffff;
-  font-size: 1.2rem;
-  font-weight: bold;
-  transition: color 0.3s ease;
+  font-size: 1.5rem; 
+  transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .contact__social .social__icons a:hover {
+  transform: scale(1.2); 
   color: #ffdd99; 
 }
 
+/* Responsive Design */
 @media (max-width: 768px) {
   .contact__form {
     padding: 2rem 1rem;
@@ -120,6 +124,7 @@
   }
 
   .contact__social .social__icons a {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 }
+

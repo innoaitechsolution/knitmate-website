@@ -1,5 +1,6 @@
 import React from 'react';
 import './Contact.css';
+import { FaTwitter, FaYoutube, FaTiktok } from 'react-icons/fa';
 
 const Contact = () => {
   return (
@@ -50,14 +51,14 @@ const Contact = () => {
       <section className="contact__social">
         <h2>Follow Us on Social Media</h2>
         <div className="social__icons">
-          <a href="https://x.com/knittmates" target="_blank" rel="noopener noreferrer">
-            Twitter(X)
+          <a href="https://x.com/knittmates" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+            <FaTwitter />
           </a>
-          <a href="https://www.youtube.com/@KnittMates" target="_blank" rel="noopener noreferrer">
-            YouTube
+          <a href="https://www.youtube.com/@KnittMates" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+            <FaYoutube />
           </a>
-          <a href="https://www.tiktok.com/@knittmates?lang=en" target="_blank" rel="noopener noreferrer">
-            TikTok
+          <a href="https://www.tiktok.com/@knittmates?lang=en" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+            <FaTiktok />
           </a>
         </div>
       </section>
