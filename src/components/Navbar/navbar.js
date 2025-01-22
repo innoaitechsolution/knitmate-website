@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FaTwitter, FaYoutube, FaTiktok } from 'react-icons/fa';
-import './Navbar.css';
+import './navbar.css';
 
 const Navbar = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
