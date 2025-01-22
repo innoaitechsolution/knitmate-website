@@ -6,7 +6,7 @@ import Home from './components/Home/Home';
 import About from './components/About/About';
 import Features from './components/Features/Features';
 import Blog from './components/Blog/Blog';
-import Contact from './components/Contact/Contact';
+import Contact from './components/Contact/contact';
 import BlogDetail from './components/Blog/BlogDetail';
 import PrivacyPolicy from './components/privacypolicy/privacypolicy';
 import './App.css'; 
