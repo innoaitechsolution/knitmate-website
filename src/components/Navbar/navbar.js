@@ -39,10 +39,7 @@ const Navbar = () => {
       </ul>
 
       {/* Social Media Links */}
-      <div className="navbar__social">
-        <a href="https://x.com/knittmates" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
-          <FaTwitter />
-        </a>
+      <div className="navbar__social">        
         <a href="https://www.youtube.com/@KnittMates" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
           <FaYoutube />
         </a>
