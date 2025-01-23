@@ -29,10 +29,7 @@ const Footer = () => {
         {/* Social Media Section */}
         <div className="footer-section social-section">
           <h4 className="footer-title">Follow Us</h4>
-          <div className="footer-social-icons">
-            <a href="https://x.com/knittmates" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
-              <FaTwitter />
-            </a>
+          <div className="footer-social-icons">         
             <a href="https://www.youtube.com/@KnittMates" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
               <FaYoutube />
             </a>

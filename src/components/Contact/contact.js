@@ -50,10 +50,7 @@ const Contact = () => {
       {/* Social Media Section */}
       <section className="contact__social">
         <h2>Follow Us on Social Media</h2>
-        <div className="social__icons">
-          <a href="https://x.com/knittmates" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
-            <FaTwitter />
-          </a>
+        <div className="social__icons">         
           <a href="https://www.youtube.com/@KnittMates" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
             <FaYoutube />
           </a>
