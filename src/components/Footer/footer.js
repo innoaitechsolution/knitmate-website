@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaTwitter, FaYoutube, FaTiktok } from 'react-icons/fa';
+import { FaYoutube, FaTiktok } from 'react-icons/fa';
 import './footer.css';
 
 const Footer = () => {
