@@ -16,10 +16,10 @@ const About = () => {
         <div className="story__content">
           <h2>Our Story</h2>
           <p>
-          Knitt Mates is more than a knitting app. It’s a gateway to a world where every stitch holds meaning. Born from the need for reflection in today’s fast-paced life, Knitt Mates transforms knitting into a lifestyle, offering tools to plan, track, and create while fostering inner peace and joy.         
+          KnittMates is more than a knitting app. It’s a gateway to a world where every stitch holds meaning. Born from the need for reflection in today’s fast-paced life, Knitt Mates transforms knitting into a lifestyle, offering tools to plan, track, and create while fostering inner peace and joy.         
           </p>
           <p>
-          Every stitch tells a story, and Knitt Mates helps you weave yours. With a community that inspires creativity and hope, it’s the perfect space to bring your dream projects to life and find moments of calm in the art of knitting.          
+          Every stitch tells a story, and KnittMates helps you weave yours. With a community that inspires creativity and hope, it’s the perfect space to bring your dream projects to life and find moments of calm in the art of knitting.          
           </p>
         </div>
         <div className="story__image">
