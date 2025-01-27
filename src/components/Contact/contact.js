@@ -1,6 +1,6 @@
 import React from 'react';
 import './contact.css';
-import { FaTwitter, FaYoutube, FaTiktok } from 'react-icons/fa';
+import { FaYoutube, FaTiktok } from 'react-icons/fa';
 
 const Contact = () => {
   return (
